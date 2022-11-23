@@ -12,6 +12,38 @@ Python Control Center is a control center for linux terminal designed for "bspwm
 888P     Y888  "Y88888P" d88P     888 88888888
 ```
 
+<h2>Installation</h2>
+
+<p>Remember that it is very important that you install everything correctly for the proper functioning of the script</p>
+
+<p>Instructions</p>
+
+```
+git clone https://github.com/14wual/PyhtonControlCenter
+cd PyhtonControlCenter
+chmod +x setup.sh
+sudo bash setup.sh
+```
+
+<p>Alternatively, you can skip the "sudo bash setup.sh" command and change it to "sudo ./setup.sh"</p>
+
+<h2>Usage</h2>
+
+```
+Usage : pcc --option
+		
+Available Options :
+    --all       --wifi          --lock
+    --help      --bluetooth     --status
+                --brightness    --settings
+```
+
+<p>Alternatives</p>
+<ul>
+    <li>Run the script manually ("python3 control-center.py") this assumes you are in the repository folder itself</li>
+    <li>Individually run each script at will</li>
+</ul>
+
 <h2>What I can do?</h2>
 
 <div class="list">
@@ -175,15 +207,64 @@ Python Control Center is a control center for linux terminal designed for "bspwm
 </ul>
 
 <h2>Version</h2>
-<p><b>Current Version</b>: 1.06</p>
+<p><b>Current Version</b>: 1.08</p>
 <ul>
     <p><b>Version Updates</b>:</p>
     <ul>
-        <li>Terminal command created</li>
-        <li>PCC file upload (command)</li>
-        <li>Updated installation and requirements file</li>
-        <li>Updated README.md file</li>
-        <li>Posted the code and scripts py of the scripts individually. Find them <a href="scripts">here</a></li>
+        <details>
+            <summary>Commits Updates - 1.X:</summary>
+            <details>
+                <summary>Version 1.01</summary>
+                <ul>
+                    <li>03-nov-22 / 20-nov-22 </li>
+                    <ul>
+                        <li>Scheduled Script Modules</li>
+                        <ul>
+                            <li>Wifi module with their respective options</li>
+                            <li>Bluetooth module with their respective options</li>
+                            <li>Status module with their respective options</li>
+                            <li>Lock module</li>
+                            <li>Sound module with their respective options</li>
+                            <li>Brightness module</li>
+                        </ul>
+                    </ul>
+                </ul>
+            </details>
+            <details>
+                <summary>Version 1.05</summary>
+                <ul>
+                    <li>23-nov-22 </li>
+                    <ul>
+                        <li>Creation of the repository: <a href="https://github.com/14wual/PyhtonControlCenter"></a><b>PCC</b></li>
+                        <li><b>Main Script Post</b></li>
+                        <li>Version V1 of the README.md file (<i>RDME-V01</i>)</li>
+                    </ul>
+                </ul>
+            </details>
+            <details>
+                <summary>Version 1.08</summary>
+                <ul>
+                    <li>23-nov-22</li>
+                    <ul>
+                        <li>Posted the code and scripts py of the <b>scripts individually</b>. Find them <a href="scripts">here</a></li>
+                        <li>Updated installation and requirements file</li>
+                        <li>Updated README.md file (<i>RDME-V05</i>)</li>
+                    </ul>
+                </ul>
+            </details>
+            <details>
+                <summary>Version 1.10</summary>
+                <ul>
+                    <li>Coming soon - ¿24-nov-22? </li>
+                    <ul>
+                        <li><b>Terminal command created</b></li>
+                        <li>PCC file (<i>sh</i>) upload (command)</li>
+                        <li>Updated README.md file (<i>RDME-V09</i>)</li>
+                        <li><b>Posted PCC Options</b> Dirs && Scripts</li>
+                    </ul>
+                </ul>
+            </details>
+        </details>
     </ul>
 </ul>
 
