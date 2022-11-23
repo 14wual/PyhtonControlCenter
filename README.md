@@ -72,89 +72,110 @@ Python Control Center is a control center for linux terminal designed for "bspwm
 
 
 <h2>How do we work?</h2>
-
+<p>Find the codes used for this script individually, classified by utilities to be able to use only the ones that interest you</p>
 <ul>
     <div id="Wifi">
-        <h3>
-            <b>Wi-Fi</b>
-        </h3>
-        <ul>
-            <a href="scripts/wifi/wifi_turnon_turnoff.py"><li>Turn Wi-Fi On or Off: Code</li></a>
-        </ul>
-        <ul>
-            <a href="scripts/wifi/wifi_set_up.py"><li>Wi-Fi Setup: Code </li></a>
-        </ul>
-        <ul>
-            <a href="scripts/wifi/wifi_set_ip.py"><li>IPv4 Setting: Code</li></a>
-        </ul>
+        <details>
+        <summary><b>Wi-Fi</b>: Codes & Scripts</summary>
+            <h3>
+                <b>Wi-Fi</b>
+            </h3>
+            <ul>
+                <a href="scripts/wifi/wifi_turnon_turnoff.py"><li>Turn Wi-Fi On or Off: Code</li></a>
+            </ul>
+            <ul>
+                <a href="scripts/wifi/wifi_set_up.py"><li>Wi-Fi Setup: Code </li></a>
+            </ul>
+            <ul>
+                <a href="scripts/wifi/wifi_set_ip.py"><li>IPv4 Setting: Code</li></a>
+            </ul>
+        </details>
     </div>
     <div id="Bluetooth">
-        <h3>
-            <b>Bluetooth</b>
-        </h3>
-        <p>The Bluetooth module is still under development, a new version will be published soon. If you decide to use the script regularly, check for updates regularly in order to enjoy all the features</p>
-        <ul>
-            <a href="scripts/bluetooth/start_stop-bluetooth.py"><li>Turn Wi-Fi On or Off: Code</li></a>
-        </ul>
-        <ul>
-            <a href="scripts/bluetooth/connect-bluetooth-device.py"><li>Wi-Fi Setup: Code</li></a>
-        </ul>
-        <ul>
-            <a href="scripts/bluetooth/disconnect-bluetooth-device.py"><li>IPv4 Setting: Code</li></a>
-        </ul>
+        <details>
+            <summary><b>Bluetooth</b>: Codes && Scripts</summary>
+            <h3>
+                <b>Bluetooth</b>
+            </h3>
+            <p>The Bluetooth module is still under development, a new version will be published soon. If you decide to use the script regularly, check for updates regularly in order to enjoy all the features</p>
+            <ul>
+                <a href="scripts/bluetooth/start_stop-bluetooth.py"><li>Turn Wi-Fi On or Off: Code</li></a>
+            </ul>
+            <ul>
+                <a href="scripts/bluetooth/connect-bluetooth-device.py"><li>Wi-Fi Setup: Code</li></a>
+            </ul>
+            <ul>
+                <a href="scripts/bluetooth/disconnect-bluetooth-device.py"><li>IPv4 Setting: Code</li></a>
+            </ul>
+        </details>
     </div>
     <div id="Brightness">
-        <h3>
-            <b>Brightness</b>
-        </h3>
-        <ul>
-            <a href="scripts/brightness/level-brightness.py"><li>Raise or Lower Brightness: Code</li></a>
-        </ul>
+        <details>
+            <summary><b>Brightness</b>: Codes && Scripts</summary>
+            <h3>
+                <b>Brightness</b>
+            </h3>
+            <ul>
+                <a href="scripts/brightness/level-brightness.py"><li>Raise or Lower Brightness: Code</li></a>
+            </ul>
+        </details>
     </div>
     <div id="Audio">
-        <h3>
-            <b>Audio</b>
-        </h3>
-        <p>The Mute / Unmute Volume module is still under development, a new version will be published soon. If you decide to use the script regularly, check for updates regularly in order to enjoy all the features</p>
-        <ul>
-            <a href="scripts/audio/level-Volume.py"><li>Raise or Lower Volume: Code</li></a>
-            <a href="scripts/audio/mute.py"><li>Mute or Unmute Volume: Code</li></a>
-        </ul>
+        <details>
+            <summary><b>Audio</b>: Codes && Scripts</summary>
+            <h3>
+                <b>Audio</b>
+            </h3>
+            <p>The Mute / Unmute Volume module is still under development, a new version will be published soon. If you decide to use the script regularly, check for updates regularly in order to enjoy all the features</p>
+            <ul>
+                <a href="scripts/audio/level-Volume.py"><li>Raise or Lower Volume: Code</li></a>
+                <a href="scripts/audio/mute.py"><li>Mute or Unmute Volume: Code</li></a>
+            </ul>
+        </details>
     </div>
     <div id="Lock">
-        <h3>
-            <b>Lock</b>
-        </h3>
-        <ul>
-            <a href="scripts/lock/lock.py"><li>Lock your Screen: Code</li></a>
-        </ul>
+        <details>
+            <summary><b>Lock</b>: Codes && Scripts</summary>
+            <h3>
+                <b>Lock</b>
+            </h3>
+            <ul>
+                <a href="scripts/lock/lock.py"><li>Lock your Screen: Code</li></a>
+            </ul>
+        </details>
     </div>
     <div id="Status">
-        <h3>
-            <b>Device Status</b>
-        </h3>
-        <p></p>
-        <ul>
-            <a href="scripts/status/shutdown.py"><li>Turn Off the Device: Code</li></a>
-            <a href="scripts/status/reboot.py"><li>Reboot the Device: Code</li></a>
-            <a href="scripts/status/loggout.py"><li>Log Out: Code</li></a>
-        </ul>
+        <details>
+            <summary><b>Device Status</b>: Codes && Scripts</summary>
+            <h3>
+                <b>Device Status</b>
+            </h3>
+            <p></p>
+            <ul>
+                <a href="scripts/status/shutdown.py"><li>Turn Off the Device: Code</li></a>
+                <a href="scripts/status/reboot.py"><li>Reboot the Device: Code</li></a>
+                <a href="scripts/status/loggout.py"><li>Log Out: Code</li></a>
+            </ul>
+        </details>
     </div>
     <div id="other">
-        <h3>
-            <b>Other Scripts </b>
-        </h3>
-        <p></p>
-        <ul>
-            <a href="scripts/other/more-settings.py"><li>More Settings: Code</li></a>
-            <a href="scripts/other/battery.py"><li>Battery Percentage: Code</li></a>
-            <a href="scripts/other/now.py"><li>Current Date and Time: Code</li></a>
-        </ul>
-    </div>
+        <details>
+            <summary><b>Other Scripts</b>: Codes && Scripts</summary>
+            <h3>
+                <b>Other Scripts </b>
+            </h3>
+            <p></p>
+            <ul>
+                <a href="scripts/other/more-settings.py"><li>More Settings: Code</li></a>
+                <a href="scripts/other/battery.py"><li>Battery Percentage: Code</li></a>
+                <a href="scripts/other/now.py"><li>Current Date and Time: Code</li></a>
+            </ul>
+        </div>
+        </details>
 </ul>
 
 <h2>Version</h2>
-<p><b>Current Version</b>: 1.04</p>
+<p><b>Current Version</b>: 1.05</p>
 <p><b>Version Updates</b>: README.md Updated</p>
 
 <h2>Frequently Asked Questions (FAQ)</h2>
