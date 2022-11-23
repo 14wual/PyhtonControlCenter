@@ -175,7 +175,17 @@ Python Control Center is a control center for linux terminal designed for "bspwm
 </ul>
 
 <h2>Version</h2>
-<p><b>Current Version</b>: 1.05</p>
-<p><b>Version Updates</b>: README.md Updated</p>
+<p><b>Current Version</b>: 1.06</p>
+<ul>
+    <p><b>Version Updates</b>:</p>
+    <ul>
+        <li>Terminal command created</li>
+        <li>PCC file upload (command)</li>
+        <li>Updated installation and requirements file</li>
+        <li>Updated README.md file</li>
+        <li>Posted the code and scripts py of the scripts individually. Find them <a href="scripts">here</a></li>
+    </ul>
+</ul>
+
 
 <h2>Frequently Asked Questions (FAQ)</h2>
