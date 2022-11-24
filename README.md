@@ -272,3 +272,9 @@ Available Options :
 
 
 <h2>Frequently Asked Questions (FAQ)</h2>
+
+<h3>🚀 Know me </h3>
+
+<b>Linkeding</b> - https://www.linkedin.com/in/cpadilla10/ <br>
+<b>Twitter</b> - https://twitter.com/codewual <br>
+<b>YouTube</b> - https://www.youtube.com/channel/UC0B3mTwPPdKPEwLerauEtdg <br>
