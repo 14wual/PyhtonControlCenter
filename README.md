@@ -12,7 +12,7 @@ Python Control Center is a control center for linux terminal designed for "bspwm
 888P     Y888  "Y88888P" d88P     888 88888888
 ```
 
-<p>This script has been tested on the following operating systems: Ubuntu Xorg, Ubuntu Bspwm, Kali Gnome, Kali, Kali Bspwm, and Parrot OS Bspwm</p>
+<p>This script has been <b>tested on the following operating systems</b>: <b>Ubuntu</b> Xorg, Ubuntu Bspwm, Kali Gnome, <b>Kali</b>, Kali Bspwm, and <b>Parrot OS</b> Bspwm</p>
 
 <h2>Installation</h2>
 
@@ -209,7 +209,7 @@ Available Options :
 </ul>
 
 <h2>Version</h2>
-<p><b>Current Version</b>: 1.12</p>
+<p><b>Current Version</b>: 1.13</p>
 <ul>
     <p><b>Version Updates</b>:</p>
     <ul>
