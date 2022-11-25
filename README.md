@@ -1,3 +1,7 @@
+The SCRIPT is currently in testing, if you have any type of error, let me know, thank you very much.
+
+Possible Errors: bluetooth modules, wifi, bad installation
+
 # PyhtonControlCenter
 Python Control Center is a control center for linux terminal designed for "bspwm" environments where we don't find the classic xorg or gnome cc as in common graphical environments.
 
