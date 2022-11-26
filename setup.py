@@ -10,9 +10,6 @@
 #------------------------------IMPORT------------------------------
 import os
 from sys import stdout
-import sys
-import subprocess
-import shutil
 
 #------------------------------PRINT_COLORS------------------------------
 def red():
@@ -36,13 +33,16 @@ apt = ("gnome-screensaver","git","python3")
 
 def apiconfig():
 
+    os.system("sudo apt update")
+    os.system("sudo apt install pip")
+
     white()
     for i in installs:
 
         if i == "commands":
 
             os.system("sudo mkdir $HOME/.config/pcc")
-            shutil.copy("options","$HOME/.config/pcc")
+            os.system("sudo cp ./options/ $HOME/.config/pcc -r")
 
             try:
 
@@ -52,9 +52,9 @@ def apiconfig():
             except FileNotFoundError:
                 
                 red;("[ x ] File not copied correctly")
-                white();os.system("sudo cp options $HOME/.config/pcc")
+                white();os.system("sudo cp ./options $HOME/.config/pcc")
 
-            shutil.copy("pcc","/bin/bash")
+            os.system("sudo cp ./pcc /bin/")
 
             test2 = os.path.exists('/usr/bin/pcc')
 
@@ -66,7 +66,7 @@ def apiconfig():
 
                 red();print("[ x ] Command NOT Created Successfully");white()
 
-            os.system("sudo chmod +x /bin/bash/pcc")
+            os.system("sudo chmod +x /bin/pcc")
             
         elif i == "pip":
 
