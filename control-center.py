@@ -6,7 +6,6 @@ import sys
 from sys import stdout
 import requests
 import time
-from wireless import Wireless
 from bullet import Password
 import network
 import psutil 
