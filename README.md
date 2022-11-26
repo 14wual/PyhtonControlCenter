@@ -213,7 +213,7 @@ Available Options :
 </ul>
 
 <h2>Version</h2>
-<p><b>Current Version</b>: 1.13</p>
+<p><b>Current Version</b>: 1.25</p>
 <ul>
     <p><b>Version Updates</b>:</p>
     <ul>
