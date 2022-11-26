@@ -9,7 +9,6 @@
 
 #------------------------------IMPORT------------------------------
 import os
-from tqdm.auto import tqdm
 from sys import stdout
 import sys
 import subprocess
