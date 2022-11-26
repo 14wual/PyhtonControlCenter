@@ -1,7 +1,3 @@
-The SCRIPT is currently in testing, if you have any type of error, let me know, thank you very much.
-
-Possible Errors: bluetooth modules, wifi, bad installation
-
 # PyhtonControlCenter
 Python Control Center is a control center for linux terminal designed for "bspwm" environments where we don't find the classic xorg or gnome cc as in common graphical environments.
 
@@ -30,8 +26,21 @@ cd PyhtonControlCenter
 chmod +x setup.py
 python setup.py
 ```
-
 <p>Alternatively, you can skip the "sudo bash setup.sh" command and change it to "sudo ./setup.sh"</p>
+The SCRIPT is currently in testing, if you have any type of error, let me know, thank you very much.
+
+<h2>Manual installation:</h2>
+
+```
+Create a folder called pcc in ~/.config
+Copy the options folder into this last created folder.
+Copy the pcc file to /bin/
+Give it execute permissions (chmod +x)
+Install the following pips: "tqdm","bullet","psutil","network"
+Install or update the following apts "gnome-screensaver","git","python3"
+Modify the following files: "config/control-center","options/settings/config/control-center","scripts/other/config/control-center" by typing your usual cc in them, for example, gnome-control- center.
+You already have your cc installed.
+```
 
 <h2>Usage</h2>
 
