@@ -39,9 +39,29 @@ def apiconfig():
     white()
     for i in installs:
 
-        if i == "commands":
+        if i == "confg":
 
-            os.system("sudo mkdir $HOME/.config/pcc")
+            blue;print("To finish the configuration; type the name of the command to run your setup")
+            green();print("[ Example ] gnome-control-center");white()
+
+            cc = input("Write: ")
+
+            files = ("config/control-center","options/settings/config/control-center","scripts/other/config/control-center")   
+
+            for z in files:
+
+                file=open(f"{z}",'w')
+
+                try:
+
+                    file.write(f"{cc}")
+
+                finally:
+
+                    file.close()
+        
+        elif i == "commands":
+
             os.system("sudo cp ./options/ $HOME/.config/pcc -r")
 
             try:
@@ -87,6 +107,7 @@ def apiconfig():
                     green();print("[ ✓ ] Pip Package Installed Successfully")
                 else:
                     red();print("[ x ] Pip Package Installed Incorrectly");white()
+                    os.system(f"sudo pip install {x}")
         
         elif i == "apt":
             
@@ -101,27 +122,6 @@ def apiconfig():
                     red();(f"Automatically install the package {y}, sorry for the inconvenience");white()
 
                 test3 = os.system(f"apt-cache policy {y}")
-        
-        elif i == "confg":
-
-            blue;print("To finish the configuration; type the name of the command to run your setup")
-            green();print("[ Example ] gnome-control-center");white()
-
-            cc = input("Write: ")
-
-            files = ("config/control-center","options/settings/config/control-center","scripts/other/config/control-center")   
-
-            for z in files:
-
-                file=open(f"{z}",'w')
-
-                try:
-
-                    file.write(f'{cc}')
-
-                finally:
-
-                    file.close()
             
         else:
 
