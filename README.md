@@ -27,7 +27,6 @@ chmod +x setup.py
 python setup.py
 ```
 <p>Alternatively, you can skip the "sudo bash setup.sh" command and change it to "sudo ./setup.sh"</p>
-The SCRIPT is currently in testing, if you have any type of error, let me know, thank you very much.
 
 <h2>Manual installation:</h2>
 
@@ -52,6 +51,8 @@ Available Options :
     --help      --bluetooth     --status
                 --brightness    --settings
 ```
+
+<p>Any failure, error or bug, contact us by opening an Issue or through my social networks. Thank you very much for your help</p>
 
 <p>Alternatives</p>
 <ul>
