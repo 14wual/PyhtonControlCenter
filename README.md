@@ -229,57 +229,78 @@ Available Options :
     <ul>
         <details>
             <summary>Commits Updates - 1.X:</summary>
-            <details>
-                <summary>Version 1.01</summary>
-                <ul>
-                    <li>03-nov-22 / 20-nov-22 </li>
+            <ul>
+                <details>
+                    <summary>Version 1.01</summary>
                     <ul>
-                        <li>Scheduled Script Modules</li>
+                        <li>03-nov-22 / 20-nov-22 </li>
                         <ul>
-                            <li>Wifi module with their respective options</li>
-                            <li>Bluetooth module with their respective options</li>
-                            <li>Status module with their respective options</li>
-                            <li>Lock module</li>
-                            <li>Sound module with their respective options</li>
-                            <li>Brightness module</li>
+                            <li>Scheduled Script Modules</li>
+                            <ul>
+                                <li>Wifi module with their respective options</li>
+                                <li>Bluetooth module with their respective options</li>
+                                <li>Status module with their respective options</li>
+                                <li>Lock module</li>
+                                <li>Sound module with their respective options</li>
+                                <li>Brightness module</li>
+                            </ul>
                         </ul>
                     </ul>
-                </ul>
-            </details>
-            <details>
-                <summary>Version 1.05</summary>
-                <ul>
-                    <li>23-nov-22 </li>
+                </details>
+            </ul>
+            <ul>
+                <details>
+                    <summary>Version 1.05</summary>
                     <ul>
-                        <li>Creation of the repository: <a href="https://github.com/14wual/PyhtonControlCenter"></a><b>PCC</b></li>
-                        <li><b>Main Script Post</b></li>
-                        <li>Version V1 of the README.md file (<i>RDME-V01</i>)</li>
+                        <li>23-nov-22 </li>
+                        <ul>
+                            <li>Creation of the repository: <a href="https://github.com/14wual/PyhtonControlCenter"></a><b>PCC</b></li>
+                            <li><b>Main Script Post</b></li>
+                            <li>Version V1 of the README.md file (<i>RDME-V01</i>)</li>
+                        </ul>
                     </ul>
-                </ul>
-            </details>
-            <details>
-                <summary>Version 1.08</summary>
-                <ul>
-                    <li>23-nov-22</li>
+                </details>
+            </ul>
+            <ul>
+                <details>
+                    <summary>Version 1.08</summary>
                     <ul>
-                        <li>Posted the code and scripts py of the <b>scripts individually</b>. Find them <a href="scripts">here</a></li>
-                        <li>Updated installation and requirements file</li>
-                        <li>Updated README.md file (<i>RDME-V05</i>)</li>
+                        <li>23-nov-22</li>
+                        <ul>
+                            <li>Posted the code and scripts py of the <b>scripts individually</b>. Find them <a href="scripts">here</a></li>
+                            <li>Updated installation and requirements file</li>
+                            <li>Updated README.md file (<i>RDME-V05</i>)</li>
+                        </ul>
                     </ul>
-                </ul>
-            </details>
-            <details>
-                <summary>Version 1.10</summary>
-                <ul>
-                    <li>Coming soon - ¿24-nov-22? </li>
+                </details>
+            </ul>
+            <ul>
+                <details>
+                    <summary>Version 1.10</summary>
                     <ul>
-                        <li><b>Terminal command created</b></li>
-                        <li>PCC file (<i>sh</i>) upload (command)</li>
-                        <li>Updated README.md file (<i>RDME-V09</i>)</li>
-                        <li><b>Posted PCC Options</b> Dirs && Scripts</li>
+                        <li>24-nov-22 </li>
+                        <ul>
+                            <li><b>Terminal command created</b></li>
+                            <li>PCC file (<i>sh</i>) upload (command)</li>
+                            <li>Updated README.md file (<i>RDME-V09</i>)</li>
+                            <li><b>Posted PCC Options</b> Dirs && Scripts</li>
+                        </ul>
                     </ul>
-                </ul>
-            </details>
+                </details>
+            </ul>
+            <ul>
+                <details>
+                    <summary>Version 1.30</summary>
+                    <ul>
+                        <li>27-nov-22</li>
+                        <ul>
+                            <li><b>Setup file</b> (setup.py) <b>bugs fixed</b></li>
+                            <li>Check file for "options" <b> folder posted</b></li>
+                            <li>Updated README.md file</li>
+                        </ul>
+                    </ul>
+                </details>
+            </ul>
         </details>
     </ul>
 </ul>
