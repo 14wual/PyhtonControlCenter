@@ -1,38 +1,45 @@
-#!/usr/bin/sh
+#!/bin/sh
 
 dir="$HOME/.config/pcc"
 
 launch() {
-	python3 $HOME/.config/pcc/options/$section/pcc.py
+'''
+	██╗    ██╗██╗   ██╗ █████╗ ██╗     
+	██║    ██║██║   ██║██╔══██╗██║     
+	██║ █╗ ██║██║   ██║███████║██║     (code by WUAL)          
+	██║███╗██║██║   ██║██╔══██║██║     
+	╚███╔███╔╝╚██████╔╝██║  ██║███████╗
+	╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝
+'''
 }
 
 if [[ "$1" == '-a' ]]; then
 	section="all"
-	launch
+	python3 $HOME/.config/pcc/options/all/pcc.py
 elif [[ "$1" == '--all' ]]; then
 	section="all"
-	launch
+	python3 $HOME/.config/pcc/options/all/pcc.py
 elif [[ "$1" == '--wifi' ]]; then
 	section="wifi"
-	launch
+	python3 $HOME/.config/pcc/options/wifi/pcc.py
 elif [[ "$1" == '--bluetooth' ]]; then
 	section="bluetooth"
-	launch
+	python3 $HOME/.config/pcc/options/bluetooth/pcc.py
 elif [[ "$1" == '--brightness' ]]; then
 	section="brightness"
-	launch
+	python3 $HOME/.config/pcc/options/brightness/pcc.py
 elif [[ "$1" == '--sound' ]]; then
 	section="sound"
-	launch
+	python3 $HOME/.config/pcc/options/sound/pcc.py
 elif [[ "$1" == '--lock' ]]; then
 	section="lock"
-	launch
+	python3 $HOME/.config/pcc/options/lock/pcc.py
 elif [[ "$1" == '--status' ]]; then
 	section="status"
-	launch
+	python3 $HOME/.config/pcc/options/status/pcc.py
 elif [[ "$1" == '--settings' ]]; then
 	section="settings"
-	launch
+	python3 $HOME/.config/pcc/options/settings/pcc.py
 else
 	cat <<- EOF
 	Usage : ./pcc --option
