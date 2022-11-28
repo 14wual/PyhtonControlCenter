@@ -27,7 +27,7 @@ def green():
 
 #------------------------------SCRIPT------------------------------
 
-installs = ("commands","pip","apt","confg")
+installs = ("confg","commands","pip","apt")
 pip = ("tqdm","bullet","psutil","network")
 apt = ("gnome-screensaver","git","python3")
 
@@ -46,11 +46,11 @@ def apiconfig():
 
             cc = input("Write: ")
 
-            files = ("config/control-center","options/settings/config/control-center","scripts/other/config/control-center")   
+            files = ("./scripts/other/config/control-center","./options/settings/config/control-center","config/control-center")   
 
             for z in files:
 
-                file=open(f"{z}",'w')
+                file=open(f"{z}","w")
 
                 try:
 
@@ -62,12 +62,11 @@ def apiconfig():
         
         elif i == "commands":
 
-            os.system("sudo cp ./options/ $HOME/.config/pcc -r")
+            os.system("sudo cp options/ $HOME/.config/pcc -r")
 
             try:
 
-                with open("$HOME/.config/pcc/options/tests-python/test.txt") as file:
-                    blue();print(file);white()
+                green();os.system("cat $HOME/.config/pcc/options/tests-python/test.txt")
             
             except FileNotFoundError:
                 
@@ -76,7 +75,7 @@ def apiconfig():
 
             os.system("sudo cp ./pcc /bin/")
 
-            test2 = os.path.exists('/usr/bin/pcc')
+            test2 = os.path.exists('/bin/pcc')
 
             if test2 == True:
 
@@ -107,7 +106,6 @@ def apiconfig():
                     green();print("[ ✓ ] Pip Package Installed Successfully")
                 else:
                     red();print("[ x ] Pip Package Installed Incorrectly");white()
-                    os.system(f"sudo pip install {x}")
         
         elif i == "apt":
             
