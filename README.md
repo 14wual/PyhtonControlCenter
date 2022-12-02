@@ -23,8 +23,8 @@ Python Control Center is a control center for linux terminal designed for "bspwm
 ```
 git clone https://github.com/14wual/PyhtonControlCenter
 cd PyhtonControlCenter
-chmod +x setup.py
-python setup.py
+chmod +x setup.sh
+./setup.sh
 ```
 <p>Alternatively, you can skip the "sudo bash setup.sh" command and change it to "sudo ./setup.sh"</p>
 
