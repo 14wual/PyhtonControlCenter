@@ -165,4 +165,4 @@ To ADD (For version 3.0)
 
 Copyright © 2023 Carlos Padilla.
 
-This project is GPL licensed.
+This project is [GPL](https://github.com/14wual/PyhtonControlCenter/blob/main/LICENSE) licensed.
