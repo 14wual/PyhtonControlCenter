@@ -161,3 +161,8 @@ To ADD (For version 3.0)
     </ul>
     
 </ul>
+
+
+Copyright © 2023 Carlos Padilla.
+
+This project is GPL licensed.
