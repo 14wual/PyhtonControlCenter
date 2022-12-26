@@ -14,7 +14,8 @@ setup(
         'psutil',
         'wmi',
         'screen_brightness_control',
-        'requests'
+        'requests',
+        'pywifi'
     ],
     project_urls={
         'Bug Reports': 'https://github.com/14wual/PyhtonControlCenter/issues',
