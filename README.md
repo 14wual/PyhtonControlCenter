@@ -167,3 +167,11 @@ To ADD (For version 3.0)
 Copyright © 2023 Carlos Padilla.
 
 This project is [GPL](https://github.com/14wual/PyhtonControlCenter/blob/main/LICENSE) licensed.
+    
+
+<h3>🚀 Know me </h3>
+
+<b>Linkeding</b> - https://www.linkedin.com/in/cpadilla10/ <br>
+<b>Twitter</b> - https://twitter.com/codewual <br>
+<b>YouTube</b> - https://www.youtube.com/channel/UC0B3mTwPPdKPEwLerauEtdg <br>
+  
